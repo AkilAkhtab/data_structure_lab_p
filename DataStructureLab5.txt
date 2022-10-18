@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+
+    class student
+    {
+    public:
+        void st()
+        {
+        string id;
+        string name;
+        float cgpa;
+        int cc;
+        cout<< "Name: ";
+        cin>> name;
+        cout<< " "<<endl;
+        cout<< "ID: ";
+        cin>> id;
+        cout<< ""<<endl;
+        cout<< "cgpa: ";
+        cin>> cgpa;
+        cout<< ""<<endl;
+        cout<< "Credits completed: ";
+        cin>>cc;
+        cout<<" "<<endl;
+
+        }
+
+    };
+
+    int main()
+    {
+        student s;
+        s.st();
+
+        return 0;
+
+    }
+
